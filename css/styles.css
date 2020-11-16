@@ -1,0 +1,194 @@
+div .first-row {
+  background-color: #f6efe8;
+}
+
+div .first-row .container .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: self-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div .first-row .container .row .header {
+  text-align: left;
+  width: 100%;
+  margin-right: 0;
+  display: block;
+}
+
+div .first-row .container .row .header h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.0625;
+  letter-spacing: -1.5px;
+  margin-bottom: 1rem;
+  font-family: Arial;
+}
+
+div .first-row .container .row .header p {
+  max-width: 27rem;
+  margin-left: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.444;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+div .first-row .container .row .header div {
+  display: inline-block;
+  width: 100%;
+  overflow: visible;
+  text-align: left;
+}
+
+div .first-row .container .row .header div a {
+  padding: 20px 24px;
+  margin-top: 0;
+  width: 100%;
+  white-space: normal;
+  background-color: #611f69;
+  color: #ffffff;
+  fill: #ffffff;
+  display: inline-block;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+div .first-row .container .row .header div a:hover {
+  background-color: #4a154b;
+}
+
+div .first-row .container .row .video {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+div .first-row .container .row .video video {
+  max-width: 100%;
+  height: auto;
+}
+
+div .first-row .container .row2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: self-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div .first-row .container .row2 .header-2 {
+  text-align: left;
+  width: 100%;
+  margin-right: 0;
+  display: block;
+}
+
+div .first-row .container .row2 .header-2 h2 {
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 1.158;
+  letter-spacing: -0.8px;
+  margin-bottom: 1rem;
+  font-family: Arial;
+}
+
+div .first-row .container .row2 .header-2 p {
+  max-width: 27rem;
+  margin-left: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.444;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+div .first-row .container .row2 .header-2 div {
+  display: inline-block;
+  width: 100%;
+  overflow: visible;
+  text-align: left;
+}
+
+div .first-row .container .row2 .header-2 div a {
+  -webkit-box-shadow: inset 0 0 0 1px #611f69;
+          box-shadow: inset 0 0 0 1px #611f69;
+  padding: 20px 24px;
+  margin-top: 0;
+  width: 100%;
+  white-space: normal;
+  background-color: transparent;
+  color: #611f69;
+  fill: #611f69;
+  display: inline-block;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+div .first-row .container .row2 .header-2 div a:hover {
+  -webkit-box-shadow: inset 0 0 0 2px #611f69;
+          box-shadow: inset 0 0 0 2px #611f69;
+  border-color: #4a154b;
+  border-bottom-width: 2px;
+}
+
+div .first-row .container .row2 .video {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  top: 5rem;
+}
+
+div .first-row .container .row2 .video video {
+  max-width: 100%;
+  height: auto;
+}
+
+div .second-row {
+  padding-top: 5rem !important;
+  background-color: #f5f5f5;
+}
+
+div .third-row {
+  background-color: #4a154b;
+  background-image: url(../images/bg-halftone-black-20p-bg.png);
+}
+
+div footer .frow-2 {
+  background-color: #f5f5f5;
+}
+
+div footer .frow-3 {
+  background-color: #ebeaeb;
+}
+/*# sourceMappingURL=styles.css.map */
