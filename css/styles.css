@@ -1,3 +1,50 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10000;
+}
+
+.sticky .container .collapse ul li a {
+  color: #1d1d1d;
+}
+
+.sticky .container .collapse ul li a:hover {
+  color: #1264a3;
+  border-bottom: none;
+}
+
+.sticky .container .collapse ul li .dropdown-toggle:hover {
+  color: #1d1d1d;
+  border-bottom: none;
+}
+
+.sticky .container .collapse a {
+  color: #1d1d1d;
+  padding: 0;
+  margin: 0 7px;
+}
+
+.sticky .container .collapse a:hover {
+  color: #1264a3;
+  text-decoration: none;
+  border-bottom: 1px solid #1264a3;
+}
+
+.sticky .container .collapse .btn {
+  color: white;
+  background-color: #611f69;
+  border: none;
+  padding: 0.75rem 1rem;
+}
+
+.sticky .container .collapse .btn:hover {
+  background-color: #4a154b;
+  color: white;
+  border-bottom: none;
+}
+
 div .first-row {
   background-color: #f6efe8;
 }
