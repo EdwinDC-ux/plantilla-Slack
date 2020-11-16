@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" viewBox="0 0 240 60"
@@ -79,17 +79,15 @@
                 </ul>
                 <a class="nav-link" href="#">Contacto</a>
                 <a class="nav-link" href="#">Conectarse</a>
-                <form class="form-inline">
-                    <button class="btn btn-outline-success" type="button">PRIMEROS PASOS</button>
-                </form>
+                <a class="btn">PRIMEROS PASOS</a>
             </div>
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row first-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5 header">
                         <h1>Te damos la bienvenida a tu nueva sede central</h1>
                         <p>
                             El trabajo en equipo puede ser difícil, desordenado, complicado… pero sigue siendo la mejor
@@ -99,33 +97,35 @@
                             <a href="#">PROBAR GRATIS</a>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 video">
                         <video autoplay loop muted poster="images/poster-vid1.png">
                             <source src="images/vid1.mp4" type="video/mp4">
                             <source src="images/vid1.webm" type="video/webm">
                         </video>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-7">
-                        <video autoplay loop muted poster="images/poster-vid2.png">
+                <div class="row row2">
+                    <div class="col-md-7 video">
+                        <video autoplay loop muted poster="images/poster-vid2.jpg">
                             <source src="images/vid2.mp4" type="video/mp4">
                             <source src="images/vid2.webm" type="video/webm">
                         </video>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 header-2">
                         <h2>Una mejor manera de comunicarse</h2>
                         <p>
                             A diferencia del correo electrónico, las conversaciones en Slack son fáciles de seguir. Y
                             son más que conversaciones: puedes hacer llamadas, compartir archivos e incluso conectarte
                             con otras aplicaciones.
                         </p>
-                        <a href="#">VER TODAS LAS FUNCIONES</a>
+                        <div>
+                            <a href="#">VER TODAS LAS FUNCIONES</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row second-row">
             <div class="col-md-12">
                 <h2>Más de 750 000 empresas utilizan Slack para trabajar</h2>
                 <p><a href="#">Ver todos los casos de clientes</a></p>
@@ -170,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row third-row">
             <div class="col-md">
                 <h3>Elige una forma de trabajar mejor</h3>
                 <a href="#">PROBAR GRATIS</a>
@@ -178,7 +178,7 @@
             </div>
         </div>
         <footer>
-            <div class="row">
+            <div class="row frow-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -252,7 +252,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row frow-2">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-1">Estado</div>
@@ -270,7 +270,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row frow-3">
                 <div class="container">
                     <span> © Copyright 2020 Slack Technologies, Inc. Todos los derechos reservados. Las distintas marcas
                         comerciales pertenecen a sus respectivos propietarios.</span>
